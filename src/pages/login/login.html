@@ -1,0 +1,28 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>Welcome to Our Chat App</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+
+<ion-content padding>
+  <img src="../assets/imgs/login.png">
+  <ion-list no-lines>
+
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" [(ngModel)]="user.username"></ion-input>
+    </ion-item>
+    <hr>
+    <br>
+    <button ion-button block round padding (click)="doLogin()" >Login</button>
+  </ion-list>
+
+</ion-content>
